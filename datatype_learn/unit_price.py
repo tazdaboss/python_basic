@@ -1,0 +1,8 @@
+your_name=input("what is your name? \t")
+name=input("what is the name of product? \t")
+unitprice=float(input("what is the price of product? \t"))
+total_money=float(input("How much money you have? \t"))
+quantity_product=int(total_money//unitprice)
+left_money=round(total_money%unitprice)
+print(quantity_product)
+print(left_money)

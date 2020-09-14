@@ -1,0 +1,2 @@
+name="tazine"
+print(name)
